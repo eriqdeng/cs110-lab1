@@ -32,18 +32,19 @@ nav li{
 #wrapper {
   background-color: aquamarine;
   display: flex;
-  margin-top: 100px;
+  max-width: 1190px;
+  margin: 56px auto;
 }
 
 #content-left {
   height: 200px;
-  width: 100%;
+  width: 290px;
   background-color: blue;
 }
 
 #content-center {
   height: 600px;
-  width: 100%;
+  width: 600px;
   background-color: red;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,7 @@ nav li{
 
 #content-right {
   height: 200px;
-  width: 100%;
+  width: 290px;
   background-color:blue;
 }
 
